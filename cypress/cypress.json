@@ -1,4 +1,10 @@
 {
+  
+  "username": "qekvs.testautomationsupport@yopmail.com",
+  "password": "Centrify@123",
+  "integrationFolder": "cypress/integration",
+  "baseUrl": "https://testapp.amelio.co",
+  "testFiles": "**/*.spec.js",
   "reporter": "cypress-html-reporter",
   "reporterOptions": {
     "reportDir": "cypress/reports/html",

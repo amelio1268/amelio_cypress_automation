@@ -3,7 +3,7 @@ import { fetchVerificationLink } from '../../../support/emailUtils';
 describe('Survey Language Verify Test for bulk users- English', () => {
     it('Survey language test - Fill survey with survey preffered language as English', () => {
 
-        const EXPECTED_SUBJECT = `TestAutomationSupport precisamos da sua opinião`;
+        const EXPECTED_SUBJECT = `TestAutomationSupport wants to know your opinion`;
 
         // Fetch the verification link
         fetchVerificationLink(EXPECTED_SUBJECT).then((verificationUrl) => {

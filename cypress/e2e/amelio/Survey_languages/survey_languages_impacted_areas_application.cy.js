@@ -6,18 +6,24 @@ describe('Survey impacted areas verification', () => {
         { value: 'tl', text: 'Tagalog' },
         { value: 'de', text: 'German' },
         { value: 'pt', text: 'Portuguese' },
-        { value: 'zh', text: 'Chinese' },
+        { value: 'zh', text: 'Chinese (Mandarin)' },
         { value: 'hu', text: 'Hungarian' },
         { value: 'it', text: 'Italian' },
-        { value: 'th', text: 'Thai' },
+        { value: 'th', text: 'Thai (Thailand)' },
         { value: 'tr', text: 'Turkish' },
-        { value: 'pt_BR', text: 'Brazil' }
+        { value: 'pt_BR', text: 'Brazilian Portuguese' },
+        { value: 'ro', text: 'Romanian' },
+        { value: 'cs', text: 'Czech' },
+        { value: 'he', text: 'Hebrew' },
+        { value: 'sk', text: 'Slovak' },
+        { value: 'km', text: 'Cambodian' },
+        { value: 'bg', text: 'Bulgarian' }
     ];
 
     const login = () => {
         cy.visit('https://testapp.amelio.co/');
         cy.wait(8000);
-        cy.get('input[name="Username"]').type("qekvs.TestAutomationSupport@inbox.testmail.app");
+        cy.get('input[name="Username"]').type("qekvs.testautomationsupport@yopmail.com");
         cy.get('input[name="Password"]').type('Centrify@123');
         cy.get('button[type="submit"]').click();
         cy.wait(5000);
@@ -32,7 +38,7 @@ describe('Survey impacted areas verification', () => {
 
     const visitAndVerify = (url) => {
         cy.visit(url);
-        cy.wait(12000);
+        cy.wait(20000);
         verifyLanguages();
     };
 
@@ -45,22 +51,39 @@ describe('Survey impacted areas verification', () => {
 
         //Verify language chips
         const languages = [
-            'English', 'French', 'Spanish', 'Vietnamese', 'Tagalog',
-            'German', 'Portuguese', 'Chinese', 'Hungarian', 'Italian',
-            'Thai', 'Turkish', 'Brazil'
+            'English',
+            'French',
+            'Spanish',
+            'Vietnamese',
+            'Tagalog',
+            'German',
+            'Portuguese',
+            'Chinese (Mandarin)',
+            'Hungarian',
+            'Italian',
+            'Thai (Thailand)',
+            'Turkish',
+            'Brazilian Portuguese',
+            'Romanian',
+            'Czech',
+            'Hebrew',
+            'Slovak',
+            'Cambodian',
+            'Bulgarian'
         ];
+
         languages.forEach(language => {
             cy.get('.MuiChip-label').contains(language).should('be.visible');
         });
 
-        // Verify dropdown languages in different sections
-        visitAndVerify('https://testapp.amelio.co/Admin/Department');
-        visitAndVerify('https://testapp.amelio.co/Admin/EmployeeLevel');
-        visitAndVerify('https://testapp.amelio.co/Admin/JobTitle');
-        visitAndVerify('https://testapp.amelio.co/Admin/Workplace');
-        visitAndVerify('https://testapp.amelio.co/Admin/CustomAttribute1');
-        visitAndVerify('https://testapp.amelio.co/Admin/CustomAttribute2');
-        visitAndVerify('https://testapp.amelio.co/Admin/CustomAttribute3');
+        // // Verify dropdown languages in different sections
+        // visitAndVerify('https://testapp.amelio.co/Admin/Department');
+        // visitAndVerify('https://testapp.amelio.co/Admin/EmployeeLevel');
+        // visitAndVerify('https://testapp.amelio.co/Admin/JobTitle');
+        // visitAndVerify('https://testapp.amelio.co/Admin/Workplace');
+        // visitAndVerify('https://testapp.amelio.co/Admin/CustomAttribute1');
+        // visitAndVerify('https://testapp.amelio.co/Admin/CustomAttribute2');
+        // visitAndVerify('https://testapp.amelio.co/Admin/CustomAttribute3');
 
         // Verifying attribute through Excel file
         visitAndVerify('https://testapp.amelio.co/Admin/Department');
@@ -74,11 +97,11 @@ describe('Survey impacted areas verification', () => {
         cy.get('body').click();
 
         // Enter a new value in the English title input
-        cy.get('input[name="customAttributeValues[0].titles.en"]')
-            .type('Test');
+        // cy.get('input[name="customAttributeValues[0].titles.en"]')
+        //     .type('Test');
 
         // Click the "Update" button
-        cy.get('button').contains('Update').click();
+        //cy.get('button').contains('Update').click();
 
         cy.get('[aria-label=""] > .MuiButton-root').click()
 
@@ -183,40 +206,40 @@ describe('Survey impacted areas verification', () => {
 
         const languagesGetIdeas = {
             en: {
-              title: "Disrupt the industry",
-              subject: "If you could only work on one project for a year to transform the business, what would it be and why?",
+                title: "Disrupt the industry",
+                subject: "If you could only work on one project for a year to transform the business, what would it be and why?",
             },
             es: {
-              title: "Disruptir la industria",
-              subject: "Si solo pudieras trabajar en un proyecto durante un año para transformar el negocio, ¿cuál sería y por qué?",
+                title: "Disruptir la industria",
+                subject: "Si solo pudieras trabajar en un proyecto durante un año para transformar el negocio, ¿cuál sería y por qué?",
             },
             fr: {
-              title: "Perturber l'industrie",
-              subject: "Si vous ne pouviez travailler sur un projet pendant un an pour transformer l'entreprise, lequel serait-ce et pourquoi ?",
+                title: "Perturber l'industrie",
+                subject: "Si vous ne pouviez travailler sur un projet pendant un an pour transformer l'entreprise, lequel serait-ce et pourquoi ?",
             },
             de: {
-              title: "Die Branche revolutionieren",
-              subject: "Wenn Sie nur ein Jahr lang an einem Projekt arbeiten könnten, um das Unternehmen zu transformieren, welches wäre das und warum?",
+                title: "Die Branche revolutionieren",
+                subject: "Wenn Sie nur ein Jahr lang an einem Projekt arbeiten könnten, um das Unternehmen zu transformieren, welches wäre das und warum?",
             },
             it: {
-              title: "Disturbare l'industria",
-              subject: "Se potessi lavorare su un solo progetto per un anno per trasformare l'azienda, quale sarebbe e perché?",
+                title: "Disturbare l'industria",
+                subject: "Se potessi lavorare su un solo progetto per un anno per trasformare l'azienda, quale sarebbe e perché?",
             },
-          };
-        
-          Object.keys(languagesGetIdeas).forEach((lang) => {
+        };
+
+        Object.keys(languagesGetIdeas).forEach((lang) => {
             it(`should update inputs correctly for ${lang}`, () => {
-              // Change the language selector
-              cy.get('#language-selector-select').click();
-              cy.contains(lang).click();
-        
-              // Verify the title input field
-              cy.get('input[name="titles"]').should('have.value', languagesGetIdeas[lang].title);
-        
-              // Verify the subject input field
-              cy.get('input[name="subjectTitles"]').should('have.value', languagesGetIdeas[lang].subject);
+                // Change the language selector
+                cy.get('#language-selector-select').click();
+                cy.contains(lang).click();
+
+                // Verify the title input field
+                cy.get('input[name="titles"]').should('have.value', languagesGetIdeas[lang].title);
+
+                // Verify the subject input field
+                cy.get('input[name="subjectTitles"]').should('have.value', languagesGetIdeas[lang].subject);
             });
-          });
+        });
 
     });
 

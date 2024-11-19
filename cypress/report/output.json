@@ -1,0 +1,165 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2024-09-27T08:21:50.678Z",
+    "end": "2024-09-27T08:22:02.041Z",
+    "duration": 11363
+  },
+  "results": [
+    {
+      "uuid": "19f3b39e-73ec-4a71-8eea-14ef8d85a1e8",
+      "title": "",
+      "fullFile": "cypress\\e2e\\amelio\\Survey_languages\\spec2.cy.js",
+      "file": "cypress\\e2e\\amelio\\Survey_languages\\spec2.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "66198024-b49f-4c2c-9bea-734546dd7c19",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "template spec passes",
+              "timedOut": null,
+              "duration": 693,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "626bf7c8-fbc5-4c99-9067-e255433a3dbf",
+              "parentUUID": "66198024-b49f-4c2c-9bea-734546dd7c19",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "626bf7c8-fbc5-4c99-9067-e255433a3dbf"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 693,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "0191c124-9574-4b44-bb2d-56861d2515f2",
+      "title": "",
+      "fullFile": "cypress\\e2e\\amelio\\Survey_languages\\spec.cy.js",
+      "file": "cypress\\e2e\\amelio\\Survey_languages\\spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "90207f2e-4a70-4e6b-9488-9b19c5833fdd",
+          "title": "template spec",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "passes",
+              "fullTitle": "template spec passes",
+              "timedOut": null,
+              "duration": 2096,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit('https://example.cypress.io');",
+              "err": {},
+              "uuid": "06efe70b-5f1b-4413-b4e7-48d6d792b4bd",
+              "parentUUID": "90207f2e-4a70-4e6b-9488-9b19c5833fdd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "06efe70b-5f1b-4413-b4e7-48d6d792b4bd"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2096,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "amelio_report",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "json": true,
+        "html": false,
+        "reportsDir": "reports/",
+        "reportFilename": "amelio_report",
+        "overwrite": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

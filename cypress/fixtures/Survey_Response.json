@@ -1,0 +1,53 @@
+{
+  "questions": {
+    "RatingScaleQuestion": {
+      "highestRating": 7,
+      "positiveResponses": 7,
+      "negativeResponses": 1,
+      "neutralResponses": 0,
+      "mixedResponses": 0
+    },
+    "SmileyQuestion": {
+      "highestRating": 5,
+      "positiveResponses": 5,
+      "negativeResponses": 1,
+      "neutralResponses": 0,
+      "mixedResponses": 0
+    },
+    "YesOrNoQuestion": {
+      "highestRating": 2,
+      "positiveResponses": 1,
+      "negativeResponses": 1,
+      "neutralResponses": 0,
+      "mixedResponses": 0
+    },
+    "MultipleChoiceQuestion": {
+      "highestRating": 4,
+      "positiveResponses": 3,
+      "negativeResponses": 1,
+      "neutralResponses": 0,
+      "mixedResponses": 0
+    },
+    "CheckboxesQuestion": {
+      "highestRating": 5,
+      "positiveResponses": 4,
+      "negativeResponses": 1,
+      "neutralResponses": 0,
+      "mixedResponses": 0
+    },
+    "NumericalQuestion": {
+      "highestRating": 10,
+      "positiveResponses": 3,
+      "negativeResponses": 0,
+      "neutralResponses": 0,
+      "mixedResponses": 0
+    },
+    "PlainTextQuestion": {
+      "highestRating": null, 
+      "positiveResponses": 0,
+      "negativeResponses": 0,
+      "neutralResponses": 0,
+      "mixedResponses": 0
+    }
+  }
+}

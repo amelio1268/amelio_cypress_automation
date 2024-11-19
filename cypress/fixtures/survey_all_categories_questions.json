@@ -1,0 +1,369 @@
+{
+    "questions": {
+      "RatingScaleQuestion": {
+        "categories": [
+          {
+            "category": "Organization",
+            "subcategories": ["Company value", "Communication", "Consideration of emp", "Social Impact", "Diversity and inclusion"]
+          },
+          {
+            "category": "Ambassadorship",
+            "subcategories": ["Job", "Product and Services", "Turnover Intention"]
+          },
+          {
+            "category": "Working Condition",
+            "subcategories": ["Compensation", "Safety at work", "Workplace"]
+          },
+          {
+            "category": "Productivity",
+            "subcategories": ["Training", "Role clarity", "Quality of Work", "Work Tools"]
+          },
+          {
+            "category": "Relationship with Manager",
+            "subcategories": ["Social support", "Collaboration", "Proximity", "Task Support"]
+          },
+          {
+            "category": "Relationship with Peer",
+            "subcategories": ["Collaboration", "Social Support", "Task Support"]
+          },
+          {
+            "category": "Feedback",
+            "subcategories": ["Manager", "Colleagues"]
+          },
+          {
+            "category": "Recognition",
+            "subcategories": ["Colleagues", "Manager", "Organization"]
+          },
+          {
+            "category": "Meaning of Work",
+            "subcategories": ["Significance of task", "Vision and Strategies", "Use of skills", "Personal Development"]
+          },
+          {
+            "category": "Well Being",
+            "subcategories": ["Work load", "Stress", "Work-life balance", "Health"]
+          },
+          {
+            "category": "Career Perspective",
+            "subcategories": ["Career Perspective", "Performance Management", "Equity between employees", "Professional Development"]
+          },
+          {
+            "category": "Autonomy",
+            "subcategories": ["Micromanagement", "Job Control"]
+          }
+        ]
+      },
+      "SmileyQuestion": {
+        "categories": [
+          {
+            "category": "Organization",
+            "subcategories": ["Company value", "Communication", "Consideration of emp", "Social Impact", "Diversity and inclusion"]
+          },
+          {
+            "category": "Ambassadorship",
+            "subcategories": ["Job", "Product and Services", "Turnover Intention"]
+          },
+          {
+            "category": "Working Condition",
+            "subcategories": ["Compensation", "Safety at work", "Workplace"]
+          },
+          {
+            "category": "Productivity",
+            "subcategories": ["Training", "Role clarity", "Quality of Work", "Work Tools"]
+          },
+          {
+            "category": "Relationship with Manager",
+            "subcategories": ["Social support", "Collaboration", "Proximity", "Task Support"]
+          },
+          {
+            "category": "Relationship with Peer",
+            "subcategories": ["Collaboration", "Social Support", "Task Support"]
+          },
+          {
+            "category": "Feedback",
+            "subcategories": ["Manager", "Colleagues"]
+          },
+          {
+            "category": "Recognition",
+            "subcategories": ["Colleagues", "Manager", "Organization"]
+          },
+          {
+            "category": "Meaning of Work",
+            "subcategories": ["Significance of task", "Vision and Strategies", "Use of skills", "Personal Development"]
+          },
+          {
+            "category": "Well Being",
+            "subcategories": ["Work load", "Stress", "Work-life balance", "Health"]
+          },
+          {
+            "category": "Career Perspective",
+            "subcategories": ["Career Perspective", "Performance Management", "Equity between employees", "Professional Development"]
+          },
+          {
+            "category": "Autonomy",
+            "subcategories": ["Micromanagement", "Job Control"]
+          }
+        ]
+      },
+      "YesOrNoQuestion": {
+        "categories": [
+          {
+            "category": "Organization",
+            "subcategories": ["Company value", "Communication", "Consideration of emp", "Social Impact", "Diversity and inclusion"]
+          },
+          {
+            "category": "Ambassadorship",
+            "subcategories": ["Job", "Product and Services", "Turnover Intention"]
+          },
+          {
+            "category": "Working Condition",
+            "subcategories": ["Compensation", "Safety at work", "Workplace"]
+          },
+          {
+            "category": "Productivity",
+            "subcategories": ["Training", "Role clarity", "Quality of Work", "Work Tools"]
+          },
+          {
+            "category": "Relationship with Manager",
+            "subcategories": ["Social support", "Collaboration", "Proximity", "Task Support"]
+          },
+          {
+            "category": "Relationship with Peer",
+            "subcategories": ["Collaboration", "Social Support", "Task Support"]
+          },
+          {
+            "category": "Feedback",
+            "subcategories": ["Manager", "Colleagues"]
+          },
+          {
+            "category": "Recognition",
+            "subcategories": ["Colleagues", "Manager", "Organization"]
+          },
+          {
+            "category": "Meaning of Work",
+            "subcategories": ["Significance of task", "Vision and Strategies", "Use of skills", "Personal Development"]
+          },
+          {
+            "category": "Well Being",
+            "subcategories": ["Work load", "Stress", "Work-life balance", "Health"]
+          },
+          {
+            "category": "Career Perspective",
+            "subcategories": ["Career Perspective", "Performance Management", "Equity between employees", "Professional Development"]
+          },
+          {
+            "category": "Autonomy",
+            "subcategories": ["Micromanagement", "Job Control"]
+          }
+        ]
+      },
+      "MultipleChoiceQuestion": {
+        "categories": [
+          {
+            "category": "Organization",
+            "subcategories": ["Company value", "Communication", "Consideration of emp", "Social Impact", "Diversity and inclusion"]
+          },
+          {
+            "category": "Ambassadorship",
+            "subcategories": ["Job", "Product and Services", "Turnover Intention"]
+          },
+          {
+            "category": "Working Condition",
+            "subcategories": ["Compensation", "Safety at work", "Workplace"]
+          },
+          {
+            "category": "Productivity",
+            "subcategories": ["Training", "Role clarity", "Quality of Work", "Work Tools"]
+          },
+          {
+            "category": "Relationship with Manager",
+            "subcategories": ["Social support", "Collaboration", "Proximity", "Task Support"]
+          },
+          {
+            "category": "Relationship with Peer",
+            "subcategories": ["Collaboration", "Social Support", "Task Support"]
+          },
+          {
+            "category": "Feedback",
+            "subcategories": ["Manager", "Colleagues"]
+          },
+          {
+            "category": "Recognition",
+            "subcategories": ["Colleagues", "Manager", "Organization"]
+          },
+          {
+            "category": "Meaning of Work",
+            "subcategories": ["Significance of task", "Vision and Strategies", "Use of skills", "Personal Development"]
+          },
+          {
+            "category": "Well Being",
+            "subcategories": ["Work load", "Stress", "Work-life balance", "Health"]
+          },
+          {
+            "category": "Career Perspective",
+            "subcategories": ["Career Perspective", "Performance Management", "Equity between employees", "Professional Development"]
+          },
+          {
+            "category": "Autonomy",
+            "subcategories": ["Micromanagement", "Job Control"]
+          }
+        ]
+      },
+      "CheckboxesQuestion": {
+        "categories": [
+          {
+            "category": "Organization",
+            "subcategories": ["Company value", "Communication", "Consideration of emp", "Social Impact", "Diversity and inclusion"]
+          },
+          {
+            "category": "Ambassadorship",
+            "subcategories": ["Job", "Product and Services", "Turnover Intention"]
+          },
+          {
+            "category": "Working Condition",
+            "subcategories": ["Compensation", "Safety at work", "Workplace"]
+          },
+          {
+            "category": "Productivity",
+            "subcategories": ["Training", "Role clarity", "Quality of Work", "Work Tools"]
+          },
+          {
+            "category": "Relationship with Manager",
+            "subcategories": ["Social support", "Collaboration", "Proximity", "Task Support"]
+          },
+          {
+            "category": "Relationship with Peer",
+            "subcategories": ["Collaboration", "Social Support", "Task Support"]
+          },
+          {
+            "category": "Feedback",
+            "subcategories": ["Manager", "Colleagues"]
+          },
+          {
+            "category": "Recognition",
+            "subcategories": ["Colleagues", "Manager", "Organization"]
+          },
+          {
+            "category": "Meaning of Work",
+            "subcategories": ["Significance of task", "Vision and Strategies", "Use of skills", "Personal Development"]
+          },
+          {
+            "category": "Well Being",
+            "subcategories": ["Work load", "Stress", "Work-life balance", "Health"]
+          },
+          {
+            "category": "Career Perspective",
+            "subcategories": ["Career Perspective", "Performance Management", "Equity between employees", "Professional Development"]
+          },
+          {
+            "category": "Autonomy",
+            "subcategories": ["Micromanagement", "Job Control"]
+          }
+        ]
+      },
+      "NumericalQuestion": {
+        "categories": [
+          {
+            "category": "Organization",
+            "subcategories": ["Company value", "Communication", "Consideration of emp", "Social Impact", "Diversity and inclusion"]
+          },
+          {
+            "category": "Ambassadorship",
+            "subcategories": ["Job", "Product and Services", "Turnover Intention"]
+          },
+          {
+            "category": "Working Condition",
+            "subcategories": ["Compensation", "Safety at work", "Workplace"]
+          },
+          {
+            "category": "Productivity",
+            "subcategories": ["Training", "Role clarity", "Quality of Work", "Work Tools"]
+          },
+          {
+            "category": "Relationship with Manager",
+            "subcategories": ["Social support", "Collaboration", "Proximity", "Task Support"]
+          },
+          {
+            "category": "Relationship with Peer",
+            "subcategories": ["Collaboration", "Social Support", "Task Support"]
+          },
+          {
+            "category": "Feedback",
+            "subcategories": ["Manager", "Colleagues"]
+          },
+          {
+            "category": "Recognition",
+            "subcategories": ["Colleagues", "Manager", "Organization"]
+          },
+          {
+            "category": "Meaning of Work",
+            "subcategories": ["Significance of task", "Vision and Strategies", "Use of skills", "Personal Development"]
+          },
+          {
+            "category": "Well Being",
+            "subcategories": ["Work load", "Stress", "Work-life balance", "Health"]
+          },
+          {
+            "category": "Career Perspective",
+            "subcategories": ["Career Perspective", "Performance Management", "Equity between employees", "Professional Development"]
+          },
+          {
+            "category": "Autonomy",
+            "subcategories": ["Micromanagement", "Job Control"]
+          }
+        ]
+      },
+      "PlainTextQuestion": {
+        "categories": [
+          {
+            "category": "Organization",
+            "subcategories": ["Company value", "Communication", "Consideration of emp", "Social Impact", "Diversity and inclusion"]
+          },
+          {
+            "category": "Ambassadorship",
+            "subcategories": ["Job", "Product and Services", "Turnover Intention"]
+          },
+          {
+            "category": "Working Condition",
+            "subcategories": ["Compensation", "Safety at work", "Workplace"]
+          },
+          {
+            "category": "Productivity",
+            "subcategories": ["Training", "Role clarity", "Quality of Work", "Work Tools"]
+          },
+          {
+            "category": "Relationship with Manager",
+            "subcategories": ["Social support", "Collaboration", "Proximity", "Task Support"]
+          },
+          {
+            "category": "Relationship with Peer",
+            "subcategories": ["Collaboration", "Social Support", "Task Support"]
+          },
+          {
+            "category": "Feedback",
+            "subcategories": ["Manager", "Colleagues"]
+          },
+          {
+            "category": "Recognition",
+            "subcategories": ["Colleagues", "Manager", "Organization"]
+          },
+          {
+            "category": "Meaning of Work",
+            "subcategories": ["Significance of task", "Vision and Strategies", "Use of skills", "Personal Development"]
+          },
+          {
+            "category": "Well Being",
+            "subcategories": ["Work load", "Stress", "Work-life balance", "Health"]
+          },
+          {
+            "category": "Career Perspective",
+            "subcategories": ["Career Perspective", "Performance Management", "Equity between employees", "Professional Development"]
+          },
+          {
+            "category": "Autonomy",
+            "subcategories": ["Micromanagement", "Job Control"]
+          }
+        ]
+      }
+    }
+}
+  

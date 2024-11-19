@@ -1,0 +1,857 @@
+
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.15.0                                                                        │
+  │ Browser:        Electron 118 (headless)                                                        │
+  │ Node Version:   v22.8.0 (C:\Program Files\nodejs\node.exe)                                     │
+  │ Specs:          16 found (survey_language_brazilian_portuguese_verify_test.cy.js, survey_langu │
+  │                 age_bulgarian_verify_test.cy.js, survey_language_cambodian_verify_test.cy.js,  │
+  │                 survey_language_chinese_verify_test.cy.js, survey_language_czech_verify_test.c │
+  │                 y.js, survey_language_e...)                                                    │
+  │ Searched:       C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\e2e\amelio\Survey │
+  │                 _languages\*.cy.js                                                             │
+  │ Experiments:    experimentalRunAllSpecs=true                                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_brazilian_portuguese_verify_test.cy.js                         (1 of 16)
+
+
+  Survey Language Verify Test for bulk users- Brazilian Portuguese
+    1) Survey language test - Fill survey with survey preffered language as Brazilian Portuguese
+
+
+  0 passing (35s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Brazilian Portuguese
+       Survey language test - Fill survey with survey preffered language as Brazilian Portuguese:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Olá '
+      +'Bem-vindo à sua pesquisa.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_brazilian_portuguese_verify_test.cy.js:18:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_052.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     34 seconds                                                                       │
+  │ Spec Ran:     survey_language_brazilian_portuguese_verify_test.cy.js                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_brazilian_portuguese_verify_test.cy.js\Survey Language Verify Test for                
+     bulk users- Brazilian Portuguese -- Survey language test - Fill survey with surv               
+     ey preffered language as Brazilian Portuguese (failed).png                                     
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_bulgarian_verify_test.cy.js                                    (2 of 16)
+
+
+  Survey Language Verify Test for bulk users- Bulgarian
+    1) Survey language test - Fill survey with survey preffered language as Bulgarian
+
+
+  0 passing (28s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Bulgarian
+       Survey language test - Fill survey with survey preffered language as Bulgarian:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Здравейте'
+      +'Добре дошли в анкетата си.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_bulgarian_verify_test.cy.js:18:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_053.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     survey_language_bulgarian_verify_test.cy.js                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_bulgarian_verify_test.cy.js\Survey Language Verify Test for bulk users-               
+      Bulgarian -- Survey language test - Fill survey with survey preffered language                
+     as Bulgarian (failed).png                                                                      
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_cambodian_verify_test.cy.js                                    (3 of 16)
+
+
+  Survey Language Verify Test for bulk users- Cambodian
+    1) Survey language test - Fill survey with survey preffered language as cambodian
+
+
+  0 passing (29s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Cambodian
+       Survey language test - Fill survey with survey preffered language as cambodian:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'សួស្តី '
+      +'សូមស្វាគមន៍មកកាន់សំណួររបស់អ្នក។'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_cambodian_verify_test.cy.js:19:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_054.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     29 seconds                                                                       │
+  │ Spec Ran:     survey_language_cambodian_verify_test.cy.js                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_cambodian_verify_test.cy.js\Survey Language Verify Test for bulk users-               
+      Cambodian -- Survey language test - Fill survey with survey preffered language                
+     as cambodian (failed).png                                                                      
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_chinese_verify_test.cy.js                                      (4 of 16)
+
+
+  Survey Language Verify Test for bulk users- Chinese
+    √ Survey language test - Fill survey with survey preffered language as Chinese (21165ms)
+
+
+  1 passing (28s)
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_055.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      1                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     survey_language_chinese_verify_test.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_czech_verify_test.cy.js                                        (5 of 16)
+
+
+  Survey Language Verify Test for bulk users- Czech
+    1) Survey language test - Fill survey with survey preffered language as Czech
+
+
+  0 passing (28s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Czech
+       Survey language test - Fill survey with survey preffered language as Czech:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Ahoj '
+      +'Vítejte ve své anketě.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_czech_verify_test.cy.js:19:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_056.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     survey_language_czech_verify_test.cy.js                                          │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_czech_verify_test.cy.js\Survey Language Verify Test for bulk users- Cze               
+     ch -- Survey language test - Fill survey with survey preffered language as Czech               
+      (failed).png                                                                                  
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_english_verify_test.cy.js                                      (6 of 16)
+
+
+  Survey Language Verify Test for bulk users- English
+    1) Survey language test - Fill survey with survey preffered language as English
+
+
+  0 passing (27s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- English
+       Survey language test - Fill survey with survey preffered language as English:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Hi '
+      +'Welcome to your employee survey'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_english_verify_test.cy.js:19:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_057.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     survey_language_english_verify_test.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_english_verify_test.cy.js\Survey Language Verify Test for bulk users- E               
+     nglish -- Survey language test - Fill survey with survey preffered language as E               
+     nglish (failed).png                                                                            
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_german_verify_test.cy.js                                       (7 of 16)
+
+
+  Survey Language Verify Test for bulk users- German
+    1) Survey language test - Fill survey with survey preffered language as German
+
+
+  0 passing (32s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- German
+       Survey language test - Fill survey with survey preffered language as German:
+     AssertionError: Timed out retrying after 4000ms: Expected to find content: ' KLICKEN SIE AUF DEN SENDEN-BUTTON.' within the element: <div.MuiCardContent-root.css-1qw96cp> but never did.
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_german_verify_test.cy.js:82:17)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_058.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     32 seconds                                                                       │
+  │ Spec Ran:     survey_language_german_verify_test.cy.js                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_german_verify_test.cy.js\Survey Language Verify Test for bulk users- Ge               
+     rman -- Survey language test - Fill survey with survey preffered language as Ger               
+     man (failed).png                                                                               
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_hebrew_verify_test.cy.js                                       (8 of 16)
+
+
+  Survey Language Verify Test for bulk users- Hebrew
+    1) Survey language test - Fill survey with survey preffered language as Hebrew
+
+
+  0 passing (28s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Hebrew
+       Survey language test - Fill survey with survey preffered language as Hebrew:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'שלום'
+      +'ברוך הבא לסקר שלך.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_hebrew_verify_test.cy.js:17:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_059.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     survey_language_hebrew_verify_test.cy.js                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_hebrew_verify_test.cy.js\Survey Language Verify Test for bulk users- He               
+     brew -- Survey language test - Fill survey with survey preffered language as Heb               
+     rew (failed).png                                                                               
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_hungarian_verify_test.cy.js                                    (9 of 16)
+
+
+  Survey Language Verify Test for bulk users- Hungarian
+    1) Survey language test - Fill survey with survey preffered language as Hungarian
+
+
+  0 passing (31s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Hungarian
+       Survey language test - Fill survey with survey preffered language as Hungarian:
+     AssertionError: Timed out retrying after 4000ms: Expected to find content: 'A felmérés kitöltve. KATTINTSON A KÜLDÉS GOMBRA.' but never did.
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_hungarian_verify_test.cy.js:81:76)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_060.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     30 seconds                                                                       │
+  │ Spec Ran:     survey_language_hungarian_verify_test.cy.js                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_hungarian_verify_test.cy.js\Survey Language Verify Test for bulk users-               
+      Hungarian -- Survey language test - Fill survey with survey preffered language                
+     as Hungarian (failed).png                                                                      
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_italian_verify_test.cy.js                                     (10 of 16)
+
+
+  Survey Language Verify Test for bulk users- Italian
+    1) Survey language test - Fill survey with survey preffered language as Italian
+
+
+  0 passing (29s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Italian
+       Survey language test - Fill survey with survey preffered language as Italian:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Ciao '
+      +'Benvenuto al tuo sondaggio.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_italian_verify_test.cy.js:19:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_061.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     29 seconds                                                                       │
+  │ Spec Ran:     survey_language_italian_verify_test.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_italian_verify_test.cy.js\Survey Language Verify Test for bulk users- I               
+     talian -- Survey language test - Fill survey with survey preffered language as I               
+     talian (failed).png                                                                            
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_portuguese_verify_test.cy.js                                  (11 of 16)
+
+
+  Survey Language Verify Test for bulk users- Portuguese
+    1) Survey language test - Fill survey with survey preffered language as Portuguese
+
+
+  0 passing (27s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Portuguese
+       Survey language test - Fill survey with survey preffered language as Portuguese:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Olá '
+      +'Bem-vindo à sua pesquisa.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_portuguese_verify_test.cy.js:19:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_062.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     27 seconds                                                                       │
+  │ Spec Ran:     survey_language_portuguese_verify_test.cy.js                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_portuguese_verify_test.cy.js\Survey Language Verify Test for bulk users               
+     - Portuguese -- Survey language test - Fill survey with survey preffered languag               
+     e as Portuguese (failed).png                                                                   
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_romanian_verify_test.cy.js                                    (12 of 16)
+
+
+  Survey Language Verify Test for bulk users- Romanian
+    1) Survey language test - Fill survey with survey preffered language as Romanian
+
+
+  0 passing (29s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Romanian
+       Survey language test - Fill survey with survey preffered language as Romanian:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Bine ați venit la sondajul dvs.'
+      +'Bienvenido/a a su encuesta.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_romanian_verify_test.cy.js:18:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_063.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     28 seconds                                                                       │
+  │ Spec Ran:     survey_language_romanian_verify_test.cy.js                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_romanian_verify_test.cy.js\Survey Language Verify Test for bulk users-                
+     Romanian -- Survey language test - Fill survey with survey preffered language as               
+      Romanian (failed).png                                                                         
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_slovak_verify_test.cy.js                                      (13 of 16)
+
+
+  Survey Language Verify Test for bulk users- Slovak
+    1) Survey language test - Fill survey with survey preffered language as Slovak
+
+
+  0 passing (29s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Slovak
+       Survey language test - Fill survey with survey preffered language as Slovak:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Ahoj'
+      +'Vitajte vo svojej ankete.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_slovak_verify_test.cy.js:19:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_064.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     28 seconds                                                                       │
+  │ Spec Ran:     survey_language_slovak_verify_test.cy.js                                         │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_slovak_verify_test.cy.js\Survey Language Verify Test for bulk users- Sl               
+     ovak -- Survey language test - Fill survey with survey preffered language as Slo               
+     vak (failed).png                                                                               
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_thai_verify_test.cy.js                                        (14 of 16)
+
+
+  Survey Language Verify Test for bulk users- Thai
+    1) Survey language test - Fill survey with survey preffered language as Thai
+
+
+  0 passing (28s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Thai
+       Survey language test - Fill survey with survey preffered language as Thai:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'สวัสดี '
+      +'ยินดีต้อนรับสู่แบบสอบถามของคุณ'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_thai_verify_test.cy.js:18:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_065.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     28 seconds                                                                       │
+  │ Spec Ran:     survey_language_thai_verify_test.cy.js                                           │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_thai_verify_test.cy.js\Survey Language Verify Test for bulk users- Thai               
+      -- Survey language test - Fill survey with survey preffered language as Thai (f               
+     ailed).png                                                                                     
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_language_turkish_verify_test.cy.js                                     (15 of 16)
+
+
+  Survey Language Verify Test for bulk users- Brazilian Turkish
+    1) Survey language test - Fill survey with survey preffered language as Turkish
+
+
+  0 passing (28s)
+  1 failing
+
+  1) Survey Language Verify Test for bulk users- Brazilian Turkish
+       Survey language test - Fill survey with survey preffered language as Turkish:
+
+      Timed out retrying after 4000ms
+      + expected - actual
+
+      -'Merhaba '
+      +'Anketinize hoş geldiniz.'
+      
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_language_turkish_verify_test.cy.js:18:25)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_066.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     28 seconds                                                                       │
+  │ Spec Ran:     survey_language_turkish_verify_test.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     language_turkish_verify_test.cy.js\Survey Language Verify Test for bulk users- B               
+     razilian Turkish -- Survey language test - Fill survey with survey preffered lan               
+     guage as Turkish (failed).png                                                                  
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  survey_languages_impacted_areas_application.cy.js                             (16 of 16)
+
+
+  Survey impacted areas verification
+    1) Verifying Survey languages impacted areas in the application
+
+
+  0 passing (1m)
+  1 failing
+
+  1) Survey impacted areas verification
+       Verifying Survey languages impacted areas in the application:
+     CypressError: `cy.trigger()` can only be called on a single element. Your subject contained 2 elements.
+
+https://on.cypress.io/trigger
+      at Context.trigger (https://testapp.amelio.co/__cypress/runner/cypress_runner.js:115106:70)
+      at wrapped (https://testapp.amelio.co/__cypress/runner/cypress_runner.js:138145:19)
+  From Your Spec Code:
+      at Context.eval (webpack://amelio_cypress_automation/./cypress/e2e/amelio/Survey_languages/survey_languages_impacted_areas_application.cy.js:154:13)
+
+
+
+[mochawesome] Report JSON saved to C:\Users\QA-lead\Downloads\amelio_cypress_automation\mochawesome-report\amelio_report_067.json
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     1 minute, 18 seconds                                                             │
+  │ Spec Ran:     survey_languages_impacted_areas_application.cy.js                                │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  C:\Users\QA-lead\Downloads\amelio_cypress_automation\cypress\screenshots\survey_     (1280x720)
+     languages_impacted_areas_application.cy.js\Survey impacted areas verification --               
+      Verifying Survey languages impacted areas in the application (failed).png                     
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ×  survey_language_brazilian_portugues      00:34        1        -        1        -        - │
+  │    e_verify_test.cy.js                                                                         │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_bulgarian_verify_te      00:27        1        -        1        -        - │
+  │    st.cy.js                                                                                    │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_cambodian_verify_te      00:29        1        -        1        -        - │
+  │    st.cy.js                                                                                    │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ √  survey_language_chinese_verify_test      00:27        1        1        -        -        - │
+  │    .cy.js                                                                                      │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_czech_verify_test.c      00:27        1        -        1        -        - │
+  │    y.js                                                                                        │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_english_verify_test      00:27        1        -        1        -        - │
+  │    .cy.js                                                                                      │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_german_verify_test.      00:32        1        -        1        -        - │
+  │    cy.js                                                                                       │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_hebrew_verify_test.      00:27        1        -        1        -        - │
+  │    cy.js                                                                                       │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_hungarian_verify_te      00:30        1        -        1        -        - │
+  │    st.cy.js                                                                                    │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_italian_verify_test      00:29        1        -        1        -        - │
+  │    .cy.js                                                                                      │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_portuguese_verify_t      00:27        1        -        1        -        - │
+  │    est.cy.js                                                                                   │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_romanian_verify_tes      00:28        1        -        1        -        - │
+  │    t.cy.js                                                                                     │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_slovak_verify_test.      00:28        1        -        1        -        - │
+  │    cy.js                                                                                       │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_thai_verify_test.cy      00:28        1        -        1        -        - │
+  │    .js                                                                                         │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_language_turkish_verify_test      00:28        1        -        1        -        - │
+  │    .cy.js                                                                                      │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ×  survey_languages_impacted_areas_app      01:18        1        -        1        -        - │
+  │    lication.cy.js                                                                              │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ×  15 of 16 failed (94%)                    08:34       16        1       15        -        -  
+
